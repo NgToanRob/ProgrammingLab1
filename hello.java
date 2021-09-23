@@ -1,4 +1,5 @@
 import static java.lang.Math.*;
+
 public class hello {
 
     /** Laboratory 1:
