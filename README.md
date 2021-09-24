@@ -7,7 +7,7 @@
 По дисциплине : «Программирование»</br>
 Вариант 336228</strong>
 </p>
-<p align="left">Преподаватель: <strong>XXXXXX</strong></br>
+<p align="left">Преподаватель: <strong>Райла Мартин</strong></br>
 Выполнил: <strong>Нгуен Тоан</strong></br>
 Группа: <strong>R3137</strong>
 </p>
