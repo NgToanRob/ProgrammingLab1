@@ -5,6 +5,13 @@ public class hello {
     /** Laboratory 1:
     * @author: Nguyen Toan
     */
+    public static double random0to1() {
+        double num = random()*(1+0.001);
+        while (num >1) {
+            num = random()*(1+0.001);
+        }
+        return num;
+    }
 
     public static void main(String[] args){
     	// Initialize variables
@@ -12,7 +19,7 @@ public class hello {
 
         double[] doubleNumbers = new double[14];
         for (int i = 0; i < 14; i++) {
-            doubleNumbers[i] = random()*10 - 4;
+            doubleNumbers[i] = random0to1()*10 - 4;
         }
 
         double[][] resultNumbers = new double[10][14];
@@ -46,7 +53,6 @@ public class hello {
             }
             System.out.println("],");
         }
-        
     }
 }
 
